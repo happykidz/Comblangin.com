@@ -4134,6 +4134,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
+    
   }
 }
 @media (min-width: 768px) {
@@ -6741,6 +6742,11 @@ button.close {
 #chromemenu{
 	display:block;
 }	
+
+#chromemenu ul{
+	list-style-type:none;
+}
+	
 .membernavright{	
 	display: list-item;
     text-align: -webkit-match-parent;
@@ -6753,7 +6759,9 @@ button.close {
 }
 
 .process_step p{
-	width:150px;
-	
+	width:150px;	
 }
-	
+
+#Tagline1{
+	background-color:#FAEBD7;
+}
