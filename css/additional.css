@@ -1,17 +1,6 @@
-﻿.intro-text {
-	position: relative;
-	padding-top: 250px;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 170px;
+﻿#comblang {
+	color: red;
 }
-.intro-text H1 {
-	font-size: 70px;
-	text-transform: uppercase;
-	color: #d9e0e2;
-	letter-spacing: 2px;
-}
-
 
 .jumbotron {
 	margin-bottom:0;
