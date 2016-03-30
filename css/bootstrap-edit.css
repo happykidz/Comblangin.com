@@ -4953,6 +4953,7 @@ a.badge:focus {
   .container-fluid .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
+    
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -6757,6 +6758,3 @@ button.close {
 	
 }
 	
-#tagline{
-	background-color:#FAEBD7;	
-}
