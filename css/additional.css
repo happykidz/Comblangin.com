@@ -1,16 +1,43 @@
-﻿#tagline{
+﻿.intro-text {
+	position: relative;
+	padding-top: 250px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 170px;
+}
+.intro-text H1 {
+	font-size: 70px;
+	text-transform: uppercase;
+	color: #d9e0e2;
+	letter-spacing: 2px;
+}
+
+
+.jumbotron {
+	margin-bottom:0;
+	color:white;
+}
+
+.navbar {
+	margin-bottom:0;
+}
+  
+
+#tagline{
 	background-color:#FAEBD7;	
 	text-align:center;
-	
+	padding-bottom:1px;
 }
 
 #login_first{	
-	background-image:url('../image/background image/background1.jpg');
-	color:white;
+	background-image:url('../image/background image/header-image-resize.jpg');
+	padding-bottom:1px;
+		
 }
 
 #whyUs{
 	background-color:#DDA0DD;	
+	padding-bottom:1px;
 }
 
 
