@@ -1,16 +1,43 @@
-﻿#comblang {
+﻿#service-section{
+	background-color:#f1c40f;
+}
+
+.service-image{
+	border: 0;
+	width: 200px;
+	height: 160px;
+	padding: 22px 25px;
+	background: #032934;
+	margin-bottom: 6px;
+	border-radius: 10%;
+	color: #f3ca27;
+	transition: all 0.5s;
+}
+
+#services-section .service:hover>img.service-image {
+	background: #0b3540;
+}
+.comblang {
 	color: red;
 }
 
-.jumbotron {
-	margin-bottom:0;
-	color:white;
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width:5500px;
+}  
+
+.about{
+	text-align:center;
 }
 
-.navbar {
-	margin-bottom:0;
+.fact-dating{
+	color:#f6d962;
+	font-size:x-large;
+	font-style:oblique;
 }
-  
 
 #tagline{
 	background-color:#FAEBD7;	
@@ -19,16 +46,10 @@
 }
 
 #login_first{	
-	background-image:url('../image/background image/header-image-resize.jpg');
+	background-image:url('image/background%20image/header-image-resize.jpg');
 	padding-bottom:1px;
 		
 }
-
-#whyUs{
-	background-color:#DDA0DD;	
-	padding-bottom:1px;
-}
-
 
 .form-signin
 {

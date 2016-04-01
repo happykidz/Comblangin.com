@@ -3,6 +3,15 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png"/>
+
+
 <!--Bootstrap -->
 <link type="text/css" rel="stylesheet" href="css/bootstrap-edit.css"/>
 <link rel="stylesheet" type="text/css" href="fonts/fonts/font-awesome/css/font-awesome.css"/>
@@ -19,20 +28,38 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'/>
 <link rel="stylesheet" type="text/css" href="css/additional.css"/>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
 
 <!--Java Script -->
 <script src="js/jquery.min.js" type="text/javascript"></script>
 <script src="js/bootstrap-edit.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/wow.min.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.js"></script> 
+
+<!-- Javascripts
+    ================================================== --> 
+<script type="text/javascript" src="js/main.js"></script>
+
 
 <title>Comblangin.com</title>
 </head>
 
 <body>
 
+<div id="preloader">
+  <div id="status"> <img src="image/preloader.gif" height="64" width="64" alt=""/> </div>
+</div>
+
+
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container"> 
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <ul class="nav navbar-nav">
@@ -52,8 +79,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" class="page-scroll">Home</a></li>
         <li><a href="#about-section" class="page-scroll">About</a></li>
-        <li><a href="#process-section" class="page-scroll">Process</a></li>
-        <li><a href="#why-section" class="page-scroll">Why Us</a></li>
+        <li><a href="#services-section" class="page-scroll">Our Services</a></li>
         <li><a href="#testimonials-section" class="page-scroll">Testimonials</a></li>
         <li><a href="#join-section" class="page-scroll">Join Us</a></li>
       </ul>
@@ -67,7 +93,7 @@
 <!-- Header -->
 <header class="text-center" name="home">
   <div class="intro-text">
-    <h1 class="wow fadeInDown"><i id="comblang" class="fa fa-heart fa-flip-horizontal"></i><strong><span class="color">Comblangin.com</span></strong></h1>
+    <h1 class="wow fadeInDown"><i class="fa fa-heart fa-flip-horizontal comblang"></i><strong><span class="color">Comblangin.com</span></strong></h1>
     <p class="wow fadeInDown">Great Love Can Start With a Single Click</p>
     <a href="#works-section" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">Join Us</a> </div>
 </header>
@@ -108,34 +134,94 @@
 -->
 
 
-<div id="whyUs">
-<h3>Why Comblangin.com</h3>
-<p>Comblangin.com is a leading Indonesian dating site connecting singles local and international singles worldwide. Whether you're an Indonesian woman looking for love; or you're interested in finding a beautiful girl from the heart of Indonesia - find the one for you in a fun and secure environment on Comblangin.com.</p>
+
+<!-- About Section -->
+<div id="about-section">
+  <div class="container">
+    <div class="section-title text-center wow fadeInDown">
+      <h2><strong>About</strong> us</h2>
+      <hr/>
+      <div class="clearfix"></div>
+      <p>We are the first &amp; bigest dating agency in Asia with over 12 years of proven track record.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6 wow fadeInLeft"> <img src="image/about.jpg" class="img-responsive"/> </div>
+      <div class="col-md-6 wow fadeInRight">
+          <h4>Why Us</h4>
+          <p>Many working professionals choose &nbsp;<i class="fa fa-heart fa-flip-horizontal comblang"></i><strong class="color">COMBLANGIN.COM&ensp;</strong>as we provide a secure, discreet and personal service that is highly-relevant to their lifestyles.</p>
+          <div class="space"></div>
+          <div class="list-style">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6 col-xs-12 about">
+                <ul>
+                  <li class="fact-dating">20</li>
+                  <li>cities in Asia</li>                  
+                </ul>
+              </div>
+              <div class="col-lg-6 col-sm-6 col-xs-12 about">
+                <ul>
+                  <li class="fact-dating">65000</li>
+                  <li>dates we've arranged so far</li>
+                </ul>
+              </div>
+            </div>
+            <hr/>
+            <div class="row">
+              <div class="col-lg-6 col-sm-6 col-xs-12 about">
+                <ul>
+                  <li class="fact-dating">3000</li>
+                  <li>media have featured us</li>                  
+                </ul>
+              </div>
+              <div class="col-lg-6 col-sm-6 col-xs-12 about">
+                <ul>
+                  <li class="fact-dating">85%</li>
+                  <li>satisfactory match rate</li>
+                </ul>
+              </div>
+            </div>  
+            
+          </div>     
+      </div>
+    </div>
+  </div>
 </div>
 
-<div id="process">
-<h3>Our Process</h3>
-<p>Get dress! Prepare to find your <img src="image/heart1.png" height="75px" width="75px"/> one</p>
+<!-- Services Section -->
+<div id="services-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>Our <strong>Services</strong></h2>
+      <hr/>
+      <div class="clearfix"></div>
+      <h3>We do the pre-screening, matching, date coordination and confirmation. All you have to do is show up and enjoy your date!</h3>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="200ms"> 
+      <img class="service-image" src="image/conversation.jpg" alt=""/>
+        <h4><strong>Meet Up</strong></h4>
+        <p>for an interview chat with our friendly dating consultant in our office.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="400ms"> 
+      <img class="service-image" src="image/connection.jpg" alt=""/>
+        <h4><strong>Match Profiles</strong></h4>
+        <p>based on your profile &nbsp; preferences, and arranged entirely lovely date for you.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="600ms"> 
+      <img class="service-image" src="image/alg-dating-jpg-jpg.jpg" alt=""/>
+        <h4><strong>Just Turn Up</strong></h4>
+        <p>and enjoy your date!</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"> 
+      <img class="service-image" src="image/feedback.jpg" alt=""/>
+        <h4><strong>Give Us Feedback</strong></h4>
+        <p>we’ll find your next suitable match.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div id="interview" class="process_step"> <img src="image/conversation.jpg" height="100px" width="150px"/>
-<p>1. Interview &amp; indentity verification</p>
-<p>with our professional dating consultant</p>
-</div>
-<div id="connection" class="process_step"> 
-<img src="image/connection.jpg" height="100px" width="150px"/>
-<p>2. Looking for your dream match</p>
-<p>from your profile and preference</p>
-</div>
-<div id="dating" class="process_step"> 
-<img src="image/alg-dating-jpg-jpg.jpg" height="100px" width="150px"/>
-<p>3. Let's meet your date</p>
-<p>and have fun!</p><br><br>
-</div>
-<div id="feedback" class="process_step"> 
-<img src="image/feedback.jpg" height="100px" width="150px"/>
-<p>4. Give us feedback</p>
-<p>for your next match</p><br><br>
-</div>
 
 <!-- slider  -->
 <div id="testimoni">
@@ -195,8 +281,8 @@
   </div>
 
 <div id="adz">
-<br>
-<br>
+<br/>
+<br/>
 <table>
 <tr>
 	<td><img src="image/adz1-decanter.png" height="200px" width="200px"/></td>
@@ -209,9 +295,10 @@
 </div>
 
 </div>
-
-</div>
-
+<div id="footer">
+  <div class="container">
+      <p>Copyright &copy; Comblangin.com. Design by <a href="https://www.linkedin.com/in/cicilia-yulianti-99b84936?trk=hp-identity-name" rel="nofollow">Cicilia Yulianti</a></p>
+  </div>
 </div>
 
 
