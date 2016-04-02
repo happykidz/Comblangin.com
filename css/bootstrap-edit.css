@@ -6206,12 +6206,6 @@ button.close {
   overflow: hidden;
 }
 
-/*tambahan-start */
-.carousel .item {
-    width: 100%;
-    
-}
-/*tambahan-end */
 
 .carousel-inner > .item {
   position: relative;

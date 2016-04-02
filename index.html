@@ -33,8 +33,8 @@
 
 <!--Java Script -->
 <script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/bootstrap-edit.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script> 
+<script src="js/bootstrap-edit.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
 <script type="text/javascript" src="js/wow.min.js"></script> 
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
@@ -71,7 +71,7 @@
           		<li><a href="#" style="font-size:small"><img src="image/China_flag.jpg" class="flag" border="0"/>&nbsp;中国语文</a></li>
         		</ul>
       		</li>     			
-      </ul>
+      </ul>    
       </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -91,47 +91,12 @@
 
 
 <!-- Header -->
-<header class="text-center" name="home">
+<header class="text-center" id="home">
   <div class="intro-text">
     <h1 class="wow fadeInDown"><i class="fa fa-heart fa-flip-horizontal comblang"></i><strong><span class="color">Comblangin.com</span></strong></h1>
     <p class="wow fadeInDown">Great Love Can Start With a Single Click</p>
     <a href="#works-section" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">Join Us</a> </div>
 </header>
-
-
-<!--
-<div id="login_first">
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6 col-md-4 col-md-offset-4">
-            <h1 class="text-center login-title">Free Consultation:</h1>
-            <div class="account-wall">
-                <img class="profile-img" src="image/tn_gallery_144_135_3063.gif" alt=""/>
-                <form class="form-signin">
-                <input type="text" class="form-control" placeholder="Name" required/>
-                <input type="text" class="form-control" placeholder="Age" required/>
-                <select class="form-control" id="sex">
-                	<option>Sex</option>
-        			<option>Female</option>
-        			<option>Male</option>
-      			</select>	
-				<input type="text" class="form-control" placeholder="Email" required autofocus/>
-                <input type="password" class="form-control" placeholder="Password" required/>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">
-                    Sign in</button>
-                <label class="checkbox pull-left">
-                    <input type="checkbox" value="remember-me"/>
-                    Remember me
-                </label>
-                <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
-                </form>
-            </div>
-            <a href="#" class="text-center new-account">Create an account </a>
-        </div>
-    </div>
-</div>
-</div>
--->
 
 
 
@@ -222,9 +187,10 @@
   </div>
 </div>
 
-
+<!--Testimonial Section -->
 <!-- slider  -->
-<div id="testimoni">
+<div id="testimonials-section">
+<div class="container">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -237,7 +203,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="image/testimoni1.jpg" alt="Slide1" width="460" height="345"/>
+        <img src="image/testimoni/testimoni1-1-edit.jpg" alt="Slide1" width="460px" height="550px"/>
         <div class="carousel-caption">
         	<h3>Bill &amp; Maria</h3>
         	<p>Thank you for Comblangin.com for giving us a chance</p>
@@ -245,7 +211,7 @@
       </div>
 
       <div class="item">
-        <img src="image/testimoni2.jpg" alt="Slide2" width="460" height="345"/>
+        <img src="image/testimoni/testimoni2.jpg" alt="Slide2" width="460px" height="550px"/>
 		<div class="carousel-caption">
         	<h3>Riscky &amp; Cicil</h3>
         	<p>Thank you Comblangin.com!</p>
@@ -253,7 +219,7 @@
       </div>
     
       <div class="item">
-        <img src="image/testimoni3.jpg" alt="Slide3" width="460" height="345"/>
+        <img src="image/testimoni/testimoni4-edit.jpg" alt="Slide3" width="460px" height="550px"/>
         <div class="carousel-caption">
         	<h3>Ari &amp; Fanny</h3>
         	<p>Thank you Comblangin.com!</p>
@@ -261,7 +227,7 @@
       </div>
 
       <div class="item">
-        <img src="image/testimoni4.jpg" alt="Slide4" width="460" height="345"/>
+        <img src="image/testimoni/testimoni3-1-edit.jpg" alt="Slide4" width="460" height="550px"/>
         <div class="carousel-caption">
         	<h3>Edo &amp; Pipit</h3>
         	<p>Thank you Comblangin.com!</p>
@@ -279,7 +245,43 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+</div>
 
+<!--
+<div id="join-section">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <h1 class="text-center login-title">Free Consultation:</h1>
+            <div class="account-wall">
+                <img class="profile-img" src="image/tn_gallery_144_135_3063.gif" alt=""/>
+                <form class="form-signin">
+                <input type="text" class="form-control" placeholder="Name" required/>
+                <input type="text" class="form-control" placeholder="Age" required/>
+                <select class="form-control" id="sex">
+                	<option>Sex</option>
+        			<option>Female</option>
+        			<option>Male</option>
+      			</select>	
+				<input type="text" class="form-control" placeholder="Email" required autofocus/>
+                <input type="password" class="form-control" placeholder="Password" required/>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">
+                    Sign in</button>
+                <label class="checkbox pull-left">
+                    <input type="checkbox" value="remember-me"/>
+                    Remember me
+                </label>
+                <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+                </form>
+            </div>
+            <a href="#" class="text-center new-account">Create an account </a>
+        </div>
+    </div>
+</div>
+</div>
+-->
+
+<!--Adz -->
 <div id="adz">
 <br/>
 <br/>
