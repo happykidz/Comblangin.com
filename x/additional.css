@@ -1,32 +1,123 @@
-﻿#tagline{
-	background-color:#FAEBD7;	
-	text-align:center;
+﻿#partner-adz {
+	color:#003939;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=1);
+	opacity: 1;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 20px;
+	border-radius: 50%;
+	background: #42626b;
+	transition: all 0.5s;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+	background: #f1c40f;
+}
+.owl-theme .owl-controls .owl-page.active span {
+	background: #f1c40f;
+}
+
+#join-section {
+	padding: 80px 0;
+	padding-top:40px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
+	background:url('image/background image/testimonials-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: #5b777f;	
+}
+
+.join-header {
+	font-size:22px;
+}
+
+#myCarousel .item {
+    width: 100%;
+    height:550px;
+}
+
+#testimonials-section{
+	background: rgb(3,39,49); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+	color: #5b777f;
 	
 }
 
-#login_first{	
-	background-image:url('image/background%20image/background1.jpg');
-	color:white;
+.service-image {
+	font-size: 40px;
+	border: 0;
+	width: 200px;
+	height: 160px;
+	padding: 22px 25px;
+	background: #032934;
+	margin-bottom: 6px;
+	border-radius: 10%;
+	color: #f3ca27;
+	transition: all 0.5s;
+}
+.service:hover>.service-image {
+	background: #0b3540;
 }
 
-#login_first h3{
-	text-align:center;	
+
+#service-section{
+	background-color:#f1c40f;
 }
 
-#login_first table{
+#service-section hr{
+	color:#81969C;
+}
+
+.comblang {
+	color: red;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width:5500px;
+}  
+
+.about{
 	text-align:center;
 }
 
-#whyUs{
-	background-color:#DDA0DD;	
+.fact-dating{
+	color:#f6d962;
+	font-size:x-large;
+	font-style:oblique;
 }
 
+#tagline{
+	background-color:#FAEBD7;	
+	text-align:center;
+	padding-bottom:1px;
+}
+
+#login_first{	
+	background-image:url('image/background%20image/header-image-resize.jpg');
+	padding-bottom:1px;
+		
+}
 
 .form-signin
 {
     max-width: 330px;
     padding: 15px;
     margin: 0 auto;
+    color:black;
 }
 .form-signin .form-signin-heading, .form-signin .checkbox
 {
@@ -78,17 +169,8 @@
     font-weight: 400;
     display: block;
 }
-.profile-img
-{
-    width: 96px;
-    height: 96px;
-    margin: 0 auto 10px;
-    display: block;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-.need-help
+
+.already-member
 {
     margin-top: 10px;
 }

@@ -45,7 +45,14 @@
 
 <!-- Javascripts
     ================================================== --> 
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 
 <title>Comblangin.com</title>
@@ -79,9 +86,10 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" class="page-scroll">Home</a></li>
         <li><a href="#about-section" class="page-scroll">About</a></li>
-        <li><a href="#services-section" class="page-scroll">Our Services</a></li>
+        <li><a href="#services-section" class="page-scroll">Services</a></li>
         <li><a href="#testimonials-section" class="page-scroll">Testimonials</a></li>
         <li><a href="#join-section" class="page-scroll">Join Us</a></li>
+        <li><a href="#works-section" class="page-scroll">Partner</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -95,7 +103,7 @@
   <div class="intro-text">
     <h1 class="wow fadeInDown"><i class="fa fa-heart fa-flip-horizontal comblang"></i><strong><span class="color">Comblangin.com</span></strong></h1>
     <p class="wow fadeInDown">Great Love Can Start With a Single Click</p>
-    <a href="#works-section" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">Join Us</a> </div>
+    <a href="#join-section" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">Join Us</a> </div>
 </header>
 
 
@@ -144,8 +152,7 @@
                   <li>satisfactory match rate</li>
                 </ul>
               </div>
-            </div>  
-            
+            </div>              
           </div>     
       </div>
     </div>
@@ -188,9 +195,7 @@
 </div>
 
 <!--Testimonial Section -->
-<!-- slider  -->
 <div id="testimonials-section">
-<div class="container">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -244,17 +249,19 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
+  
 </div>
 
-<!--
-<div id="join-section">
+<!-- Join Section -->
+<div id="join-section" class="text-center">
 <div class="container">
+<div class="section-title wow fadeInDown">
+      <h1>Get&nbsp;<strong>Free</strong>&nbsp;Consultation</h1>
+      <hr/>
     <div class="row">
-        <div class="col-sm-6 col-md-4 col-md-offset-4">
-            <h1 class="text-center login-title">Free Consultation:</h1>
+        <div class="col-sm-6 col-md-4 col-md-offset-4">            
             <div class="account-wall">
-                <img class="profile-img" src="image/tn_gallery_144_135_3063.gif" alt=""/>
+            	<b class="fa fa-heart comblang join-header"><span class="color join-header">COMBLANGIN.COM</span></b>
                 <form class="form-signin">
                 <input type="text" class="form-control" placeholder="Name" required/>
                 <input type="text" class="form-control" placeholder="Age" required/>
@@ -266,40 +273,374 @@
 				<input type="text" class="form-control" placeholder="Email" required autofocus/>
                 <input type="password" class="form-control" placeholder="Password" required/>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">
-                    Sign in</button>
+                    Join Us NOW</button>
                 <label class="checkbox pull-left">
                     <input type="checkbox" value="remember-me"/>
                     Remember me
                 </label>
-                <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+                <a href="#" class="pull-right already-member">Already a Member? </a><span class="clearfix"></span>
                 </form>
             </div>
-            <a href="#" class="text-center new-account">Create an account </a>
         </div>
     </div>
 </div>
 </div>
--->
+</div>
 
-<!--Adz -->
-<div id="adz">
-<br/>
-<br/>
-<table>
-<tr>
-	<td><img src="image/adz1-decanter.png" height="200px" width="200px"/></td>
-	<td><img src="image/adz2-paul.jpeg" height="200px" width="200px"/></td>
-	<td><img src="image/adz3-jakfm.png" height="200px" width="200px"/></td>
-	<td><img src="image/adz4-qraved.png" height="200px" width="200px"/></td>
-</tr>
-</table>
+<!-- Partner -->
+<div id="works-section" class="text-center">
+  <div class="container"> <!-- Container -->
+    <div class="section-title wow fadeInDown">
+      <h2>Our <strong>Partner</strong></h2>
+      <hr/>
+      <div class="clearfix"></div>
+      <h4>Get special offer from our partner as <b class="fa fa-heart comblang join-header"></b><span id="partner-adz" class="join-header"><strong>COMBLANGIN.COM</strong></span>&nbsp;member</h4>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".food">Food Restaurant</a></li>
+            <li><a href="#" data-filter=".travel">Travel</a></li>
+            <li><a href="#" data-filter=".party">Party Decoration</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 food">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="200ms">
+            <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Paul</h4>
+                Food Restaurant
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="image/partner/adz2-paul.jpeg" class="img-responsive" alt="Project Title"/> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 party">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="400ms">
+            <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>OMG Events</h4>
+                Party Decoration
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="image/partner/party-2-img_Complete Logo Design.png" class="img-responsive" alt="Project Title"/> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 food">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="600ms">
+            <div class="hover-bg"> <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>The Plate</h4>
+                Food Restaurant
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="image/partner/food3.png" class="img-responsive" alt="Project Title"/> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 travel">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="800ms">
+            <div class="hover-bg"> <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Travelling Man</h4>
+                Travel
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="image/partner/travel1-Travelling-Man-Logo-Colour-WEB_670.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 food">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1000ms">
+            <div class="hover-bg"> <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Chicken House</h4>
+                Food Restaurant
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="image/partner/resto3-BC-Chicken-House-Davao-Restaurants-Listing.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 party">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1200ms">
+            <div class="hover-bg"> <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Simply Sweet</h4>
+                Party Decoration
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="image/partner/party3-Simply-Sweet-Parties-Event-Planning-Logo.png" class="img-responsive" alt="Project Title"/> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 travel">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1400ms">
+            <div class="hover-bg"> <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>World Travel</h4>
+                Travel
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="image/partner/travel2-world-travel-vector-free-template_23-2147491288.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 party">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1600ms">
+            <div class="hover-bg"> <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Modern Kicks</h4>
+                Party Decoration
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="image/partner/party1-modern-kicks-logo.jpg" class="img-responsive" alt="Project Title"/> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 </div>
 
-</div>
 <div id="footer">
   <div class="container">
       <p>Copyright &copy; Comblangin.com. Design by <a href="https://www.linkedin.com/in/cicilia-yulianti-99b84936?trk=hp-identity-name" rel="nofollow">Cicilia Yulianti</a></p>
+  </div>
+</div>
+
+
+<!-- Portfolio Modals --> 
+<!-- Use the modals below to showcase details about your portfolio projects! --> 
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/01-preview.jpg" alt=""/>
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/02-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/03-preview.jpg" alt=""/>
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/04-preview.jpg" alt=""/>
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/05-preview.jpg" alt=""/>
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/06-preview.jpg" alt=""/>
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 7 -->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/07-preview.jpg" alt=""/>
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 8 -->
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/08-preview.jpg" alt=""/>
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
