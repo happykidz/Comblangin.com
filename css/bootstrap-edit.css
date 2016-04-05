@@ -6729,9 +6729,6 @@ button.close {
 	#lang_navguest {width: 50px;}
 	#nav ul {width: auto; padding: 10px 0 0 12px;}
 
-#dropmenu7{
-	height: auto; overflow: hidden; visibility: hidden; float:right;
-} 
 
 #chromemenu{
 	display:block;
